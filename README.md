@@ -20,4 +20,4 @@ Please see the official [Elasticsearch documentation](https://www.elastic.co/gui
 
 * **Type** is deprecated concepted since Elasticsearch 6. It used to be a logical partition of an index allowing you to store different __types__ of documents in the same index. Elasticsearch architecture has changed enough that this feature is no longer relevant. 
 
-**Shards and their Replicas** are the physical partitioning of your data for performance and resilency reasons. Your index's can be split across multiple shards and Elasticsearch provides many ways to customize this behavior. 
+* **Shards and their Replicas** are the physical partitioning of your data for performance and resilency reasons. Your index's can be split across multiple shards and Elasticsearch provides many ways to customize this behavior. 
